@@ -207,6 +207,10 @@ exclude:
   - purgecss.js
   - rollup.config.js
   - "package*.json"
+  - assets/feed.xml
+
+plugins:
+  - jekyll-archives
 
 jekyll-archives:
   enabled: [categories, tags]
